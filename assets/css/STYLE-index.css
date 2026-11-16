@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Koulen-Regular";
+  src: url("../fonts/Koulen/Koulen-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "Secular-One-Regular";
+    src: url(../fonts/secular-one/SecularOne-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+header > h1 {
+    line-height: 1px;
+    font-size: 56px;
+    font-family: "Koulen-Regular";
+    letter-spacing: 3px;
+    margin-left: 3.8px;
+}
+
+header > p {
+    font-family: "Koulen-Regular";
+    font-size: 17px;
+    line-height: 1.8px;
+    letter-spacing: 1px;
+    margin-left: 3.8px;
+}
+header > h3 {
+    font-family: "Secular-One-Regular";
+    line-height: 0px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 29px;
+    margin-left: 3px;
+}
+.info-sub {
+    font-family: "Secular-One-Regular";
+    margin-top: 223px;
+    font-size: 35px;
+    margin-left: 4px;
+    letter-spacing: 0.6px;
+}
+.tds-sub {
+    font-family: "Secular-One-Regular";
+    font-size: 29.7px;
+    line-height: 32px;
+    margin-left: 2px;
+    margin-top: -15px;
+}
+.abtMe-sub {
+    font-family: "Secular-One-Regular";
+    font-size: 29.7px;
+    line-height: 32px;
+    margin-left: 3px;
+    margin-top: -11.8px;
+}
+footer > img {
+    width: 1260px;
+    height: auto;
+    margin-top: -159px;
+    margin-left: -9px;
+}
+
+body {
+    background-image: url(../css/img/fondo\ main.png);
+    background-size: cover;
+    background-position-x: 190px;
+}

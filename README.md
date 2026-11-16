@@ -5,3 +5,6 @@
     para posibles clientes de comisiones.
 3. A que da solución
     Soluciona/Facilita la búsqueda y/o contacto para personas que quieran saber más de mí o mis ilustraciones.
+
+(Final 16 de Noviembre)
+    - Se hicieron avances en la página principal; Falta proceso en el front-end, Falta la lógica de los botónes de la página
