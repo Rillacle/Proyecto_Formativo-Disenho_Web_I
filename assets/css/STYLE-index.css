@@ -67,6 +67,7 @@ footer > img {
 
 body {
     background-image: url(../css/img/fondo\ main.png);
-    background-size: cover;
-    background-position-x: 190px;
+    background-size: 1102px auto;
+    background-position-x: 153px;
+    overflow: hidden;
 }
