@@ -1,0 +1,7 @@
+1. A quién está Dirigido
+    Personas quienes hayan encontrado mi cuenta en línea y les haya interesado mi estilo de dibujo.
+2. Cuál es el propósito
+    Ofrecer un portfolio fácil de acceder,
+    para posibles clientes de comisiones.
+3. A que da solución
+    Soluciona/Facilita la búsqueda y/o contacto para personas que quieran saber más de mí o mis ilustraciones.
