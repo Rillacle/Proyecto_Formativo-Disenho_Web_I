@@ -11,3 +11,6 @@
 
 17 Nov - v1.2
     - Se cambiaron los pixeles como medida por un cálculo con respecto a la resolución trabajada en un inicio, los pixeles no eran responsivos. 
+
+17 Nov - v1.3 (Final 17 de Noviembre)
+    - Se terminó el ajuste pixel-perfect de la Página main (index).

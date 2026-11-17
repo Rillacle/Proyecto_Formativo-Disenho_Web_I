@@ -1,5 +1,5 @@
 :root {
-    --u: calc(100vw / 1260);
+    --u: calc(100vw / 1252);
 }
 
 @font-face {
@@ -20,18 +20,22 @@
 
 header > h1 {
     line-height: var(--u);
-    font-size: calc(56 * var(--u));
+    font-size: calc(58.1 * var(--u));
     font-family: "Koulen-Regular";
-    letter-spacing: calc(3 * var(--u));
-    margin-left: calc(3.8 * var(--u));
+    letter-spacing: calc(2.1 * var(--u));
+    margin-left: calc(3.99 * var(--u));
+    margin-top: calc(38.9 * var(--u));
+    color: #FF6EAD;
 }
 
 header > p {
     font-family: "Koulen-Regular";
-    font-size: calc(17 * var(--u));
-    line-height: calc(1.8 * var(--u));
-    letter-spacing: var(--u);
+    font-size: calc(18.3 * var(--u));
+    line-height: calc(0.3 * var(--u));
+    letter-spacing: calc(0.5 * var(--u));
     margin-left: calc(3.8 * var(--u));
+    margin-top: calc(-1.5 * var(--u));
+    color: #FF6EAD;
 }
 
 header > h3 {
@@ -39,8 +43,9 @@ header > h3 {
     line-height: 0;
     font-size: calc(40 * var(--u));
     letter-spacing: var(--u);
-    margin-top: calc(29 * var(--u));
+    margin-top: calc(29.9 * var(--u));
     margin-left: calc(3 * var(--u));
+    color: #FFFFFF;
 }
 
 .info-sub {
@@ -49,26 +54,29 @@ header > h3 {
     font-size: calc(35 * var(--u));
     margin-left: calc(4 * var(--u));
     letter-spacing: calc(0.6 * var(--u));
+    color: #664A30;
 }
 
 .tds-sub {
     font-family: "Secular-One-Regular";
-    font-size: calc(29.7 * var(--u));
+    font-size: calc(29.4 * var(--u));
     line-height: calc(32 * var(--u));
-    margin-left: calc(2 * var(--u));
+    margin-left: calc(3 * var(--u));
     margin-top: calc(-15 * var(--u));
+    color: #664A30;
 }
 
 .abtMe-sub {
     font-family: "Secular-One-Regular";
     font-size: calc(29.7 * var(--u));
     line-height: calc(32 * var(--u));
-    margin-left: calc(3 * var(--u));
+    margin-left: calc(4.7 * var(--u));
     margin-top: calc(-11.8 * var(--u));
+    color: #664A30;
 }
 
 footer > img {
-    width: 100vw;
+    width: 100.4vw;
     height: auto;
     margin-top: calc(-159 * var(--u));
     margin-left: calc(-9 * var(--u));
@@ -78,5 +86,30 @@ body {
     margin: calc(8 * var(--u)); 
     background-image: url("../css/img/fondo main.png");
     background-size: calc(1102 * var(--u)) auto;
-    background-position-x: calc(153 * var(--u));
-    overflow-x: hidden; 
+    background-position-x: calc(152 * var(--u)); 
+    
+}
+
+.decoration {
+    position: absolute;
+    width: calc(890 * var(--u));
+    height: auto;
+
+    top: calc(0 * var(--u));
+    left: calc(0 * var(--u));
+
+    z-index: -1;
+    pointer-events: none;
+}
+
+.filler {
+    display: block;
+    background-color: white;
+    width: 100vw;
+    height: calc(100 * var(--u));
+    position: absolute;
+    bottom: calc(-100 * var(--u));
+    left: calc(0 * var(--u));
+    pointer-events: none;
+    z-index: -1;
+}
