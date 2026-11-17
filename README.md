@@ -14,3 +14,6 @@
 
 17 Nov - v1.3 (Final 17 de Noviembre)
     - Se terminó el ajuste pixel-perfect de la Página main (index).
+
+17 Nov - v1.3.1
+    - Solucionado error de visualización con "Vector 1 color.png" debido a Live Server.
