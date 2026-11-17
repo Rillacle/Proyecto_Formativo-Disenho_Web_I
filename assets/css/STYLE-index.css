@@ -1,73 +1,82 @@
+:root {
+    --u: calc(100vw / 1260);
+}
+
 @font-face {
-  font-family: "Koulen-Regular";
-  src: url("../fonts/Koulen/Koulen-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Koulen-Regular";
+    src: url("../fonts/Koulen/Koulen-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Secular-One-Regular";
-    src: url(../fonts/secular-one/SecularOne-Regular.ttf) format("truetype");
+    src: url("../fonts/secular-one/SecularOne-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 header > h1 {
-    line-height: 1px;
-    font-size: 56px;
+    line-height: var(--u);
+    font-size: calc(56 * var(--u));
     font-family: "Koulen-Regular";
-    letter-spacing: 3px;
-    margin-left: 3.8px;
+    letter-spacing: calc(3 * var(--u));
+    margin-left: calc(3.8 * var(--u));
 }
 
 header > p {
     font-family: "Koulen-Regular";
-    font-size: 17px;
-    line-height: 1.8px;
-    letter-spacing: 1px;
-    margin-left: 3.8px;
+    font-size: calc(17 * var(--u));
+    line-height: calc(1.8 * var(--u));
+    letter-spacing: var(--u);
+    margin-left: calc(3.8 * var(--u));
 }
+
 header > h3 {
     font-family: "Secular-One-Regular";
-    line-height: 0px;
-    font-size: 40px;
-    letter-spacing: 1px;
-    margin-top: 29px;
-    margin-left: 3px;
+    line-height: 0;
+    font-size: calc(40 * var(--u));
+    letter-spacing: var(--u);
+    margin-top: calc(29 * var(--u));
+    margin-left: calc(3 * var(--u));
 }
+
 .info-sub {
     font-family: "Secular-One-Regular";
-    margin-top: 223px;
-    font-size: 35px;
-    margin-left: 4px;
-    letter-spacing: 0.6px;
+    margin-top: calc(223 * var(--u));
+    font-size: calc(35 * var(--u));
+    margin-left: calc(4 * var(--u));
+    letter-spacing: calc(0.6 * var(--u));
 }
+
 .tds-sub {
     font-family: "Secular-One-Regular";
-    font-size: 29.7px;
-    line-height: 32px;
-    margin-left: 2px;
-    margin-top: -15px;
+    font-size: calc(29.7 * var(--u));
+    line-height: calc(32 * var(--u));
+    margin-left: calc(2 * var(--u));
+    margin-top: calc(-15 * var(--u));
 }
+
 .abtMe-sub {
     font-family: "Secular-One-Regular";
-    font-size: 29.7px;
-    line-height: 32px;
-    margin-left: 3px;
-    margin-top: -11.8px;
+    font-size: calc(29.7 * var(--u));
+    line-height: calc(32 * var(--u));
+    margin-left: calc(3 * var(--u));
+    margin-top: calc(-11.8 * var(--u));
 }
+
 footer > img {
-    width: 1260px;
+    width: 100vw;
     height: auto;
-    margin-top: -159px;
-    margin-left: -9px;
+    margin-top: calc(-159 * var(--u));
+    margin-left: calc(-9 * var(--u));
 }
 
 body {
-    background-image: url(../css/img/fondo\ main.png);
-    background-size: 1102px auto;
-    background-position-x: 153px;
-    overflow: hidden;
-}
+    margin: calc(8 * var(--u)); 
+    background-image: url("../css/img/fondo main.png");
+    background-size: calc(1102 * var(--u)) auto;
+    background-position-x: calc(153 * var(--u));
+    overflow-x: hidden; 
