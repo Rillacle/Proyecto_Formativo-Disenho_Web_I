@@ -17,3 +17,8 @@
 
 17 Nov - v1.3.1
     - Solucionado error de visualización con "Vector 1 color.png" debido a Live Server.
+
+18 Nov - v2 (Final 18 de Noviembre)
+    - Se añadió la página html de info, se enlazó con index a través de un botón
+    - Se añadieron los enlaces a las redes sociales como botones en el footer
+    - Se comenzó la construcción del front-end en info.html

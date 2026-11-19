@@ -48,10 +48,15 @@ header > h3 {
     color: #FFFFFF;
 }
 
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
 .info-sub {
     font-family: "Secular-One-Regular";
-    margin-top: calc(223 * var(--u));
-    font-size: calc(35 * var(--u));
+    margin-top: calc(222 * var(--u));
+    font-size: calc(35.2 * var(--u));
     margin-left: calc(4 * var(--u));
     letter-spacing: calc(0.6 * var(--u));
     color: #664A30;
@@ -62,7 +67,7 @@ header > h3 {
     font-size: calc(29.4 * var(--u));
     line-height: calc(32 * var(--u));
     margin-left: calc(3 * var(--u));
-    margin-top: calc(-15 * var(--u));
+    margin-top: calc(6 * var(--u));
     color: #664A30;
 }
 
@@ -71,16 +76,36 @@ header > h3 {
     font-size: calc(29.7 * var(--u));
     line-height: calc(32 * var(--u));
     margin-left: calc(4.7 * var(--u));
-    margin-top: calc(-11.8 * var(--u));
+    margin-top: calc(6 * var(--u));
     color: #664A30;
 }
 
-footer > img {
+
+footer {
+    position: relative;
     width: 100.4vw;
-    height: auto;
-    margin-top: calc(-159 * var(--u));
+    margin-top: calc(-130 * var(--u));
     margin-left: calc(-9 * var(--u));
 }
+footer > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.social {
+    position: absolute;
+    display: block;
+    background: transparent;
+    width: calc(50 * var(--u));
+    height: calc(50 * var(--u));
+    top: calc(208.5 * var(--u));
+}
+.instagram { left: calc(27 * var(--u)); }
+.tiktok { left: calc(100 * var(--u)); }
+.bluesky { left: calc(180 * var(--u)); }
+.twitter { left: calc(260 * var(--u)); }
+.tumblr { left: calc(335 * var(--u)); }
+
 
 body {
     margin: calc(8 * var(--u)); 
@@ -113,3 +138,4 @@ body {
     pointer-events: none;
     z-index: -1;
 }
+

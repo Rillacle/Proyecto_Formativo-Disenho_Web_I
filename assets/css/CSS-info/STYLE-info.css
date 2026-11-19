@@ -1,0 +1,51 @@
+:root {
+    --u: calc(100vw / 1252);
+}
+
+body {
+    margin: calc(8 * var(--u)); 
+    background-image: url("../img/IMG-info/fondo\ info.png");
+    background-size: calc(1253 * var(--u)) auto;
+    background-position-x: calc(0 * var(--u)); 
+    
+}
+
+.filler {
+    display: block;
+    background-color: white;
+    border-radius: calc(49 * var(--u));
+    border: calc(6.5 * var(--u)) solid #FFE343;
+    width: calc(621 * var(--u));
+    height: calc(3310 * var(--u));
+    position: absolute;
+    bottom: calc(-2775 * var(--u));
+    left: calc(311 * var(--u));
+    pointer-events: none;
+    z-index: -1;
+}
+
+footer {
+    position: relative;
+    width: 100.4vw;
+    margin-top: calc(-130 * var(--u));
+    margin-left: calc(-9 * var(--u));
+    top: calc(3368.8 * var(--u));
+}
+footer > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.social {
+    position: absolute;
+    display: block;
+    background: transparent;
+    width: calc(50 * var(--u));
+    height: calc(50 * var(--u));
+    top: calc(208.5 * var(--u));
+}
+.instagram { left: calc(27 * var(--u)); }
+.tiktok { left: calc(100 * var(--u)); }
+.bluesky { left: calc(180 * var(--u)); }
+.twitter { left: calc(260 * var(--u)); }
+.tumblr { left: calc(335 * var(--u)); }
