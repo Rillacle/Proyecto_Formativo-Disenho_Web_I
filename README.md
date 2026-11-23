@@ -22,3 +22,9 @@
     - Se añadió la página html de info, se enlazó con index a través de un botón
     - Se añadieron los enlaces a las redes sociales como botones en el footer
     - Se comenzó la construcción del front-end en info.html
+
+23 Nov - v2.1
+    - Se corrigió el footer, ahora el gráfico no es interactuable
+    - Añadidos comentarios para la diferenciación de bloques de código
+    - Finalizada la configuración de la página "info"
+    - Creadas las carpetas para la sub-página "ejemplos"
