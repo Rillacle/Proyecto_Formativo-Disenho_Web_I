@@ -1,0 +1,171 @@
+:root {
+    --u: calc(100vw / 1252);
+}
+
+@font-face {
+    font-family: "Koulen-Regular";
+    src: url("../../fonts/Koulen/Koulen-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Secular-One-Regular";
+    src: url("../../fonts/secular-one/SecularOne-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lao-Sans-Pro";
+    src: url("../../fonts/lao-sans-pro/LaoSansPro-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*fondo y tal*/
+body {
+    margin: calc(8 * var(--u)); 
+    background-image: url("../img/IMG-TdS/fondo\ TdS.png");
+    background-repeat: no-repeat;
+    background-size: calc(1253 * var(--u)) auto;
+    background-position-x: calc(0 * var(--u)); 
+}
+
+/*fondo bloque*/
+.filler {
+    display: block;
+    background-color: white;
+    border-radius: calc(49 * var(--u));
+    border: calc(6.5 * var(--u)) solid #FFE343;
+    width: calc(621 * var(--u));
+    height: calc(1205 * var(--u));
+    position: absolute;
+    top: calc(79 * var(--u));
+    left: calc(311 * var(--u));
+    pointer-events: none;
+    z-index: -1;
+}
+
+/*titulos*/
+header > h1,
+.titulo {
+    position: absolute;
+    display: block;
+    left: calc(311 * var(--u));
+    width: calc(634 * var(--u));
+    margin: 0;
+    font-family: "Koulen-Regular";
+    font-size: calc(70 * var(--u));
+    letter-spacing: calc(1.5 * var(--u));
+    text-align: center;
+    color: #FF6EAD;
+}
+
+header > h1 {
+    top: calc(98 * var(--u));
+    line-height: calc(53 * var(--u));
+}
+
+.titulo {
+    line-height: calc(70 * var(--u));
+}
+
+.titulo-pago { top: calc(268 * var(--u)); }
+.titulo-importante { top: calc(775 * var(--u)); }
+
+/*texto*/
+.lista {
+    position: absolute;
+    display: block;
+    left: calc(311 * var(--u));
+    margin: 0;
+    font-family: "Secular-One-Regular";
+    font-size: calc(14 * var(--u));
+    line-height: calc(32.6 * var(--u));
+    white-space: nowrap;
+    color: #664A30;
+}
+
+.lista-pago {
+    top: calc(334.5 * var(--u));
+    padding-left: calc(39 * var(--u));
+}
+
+.lista-importante {
+    top: calc(841.7 * var(--u));
+    padding-left: calc(33 * var(--u));
+}
+
+/*link kofi*/
+.kofi {
+    position: absolute;
+    display: block;
+    left: calc(311 * var(--u));
+    top: calc(1059.6 * var(--u));
+    width: calc(634 * var(--u));
+    font-family: "Secular-One-Regular";
+    font-size: calc(15 * var(--u));
+    line-height: calc(34 * var(--u));
+    text-align: center;
+    text-decoration: none;
+    color: #B5D79B;
+}
+
+.kofi img {
+    display: inline-block;
+    width: calc(34 * var(--u));
+    height: auto;
+    margin-left: calc(8 * var(--u));
+    vertical-align: middle;
+}
+
+/*volver*/
+.volver {
+    position: absolute;
+    display: block;
+    left: calc(510 * var(--u));
+    top: calc(1145 * var(--u));
+    width: calc(228 * var(--u));
+    height: calc(92 * var(--u));
+    background-color: #FFE343;
+    border-radius: calc(14 * var(--u));
+    font-family: "Secular-One-Regular";
+    font-size: calc(36 * var(--u));
+    line-height: calc(92 * var(--u));
+    text-align: center;
+    text-decoration: none;
+    color: #664A30;
+}
+
+/*footer*/
+footer {
+    position: relative;
+    width: 100.4vw;
+    margin-top: calc(-130 * var(--u));
+    margin-left: calc(-9 * var(--u));
+    top: calc(1270 * var(--u));
+    pointer-events: none;
+}
+footer > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.social {
+    position: absolute;
+    display: block;
+    background: transparent;
+    width: calc(50 * var(--u));
+    height: calc(50 * var(--u));
+    top: calc(208.5 * var(--u));
+    pointer-events: auto;
+}
+.instagram { left: calc(27 * var(--u)); }
+.tiktok { left: calc(100 * var(--u)); }
+.bluesky { left: calc(180 * var(--u)); }
+.twitter { left: calc(260 * var(--u)); }
+.tumblr { left: calc(335 * var(--u)); }

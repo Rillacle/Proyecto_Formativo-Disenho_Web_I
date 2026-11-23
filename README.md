@@ -31,3 +31,9 @@
 
 23 Nov - v2.2
     - Se comenzó y finalizó la configuración de la sub-página "ejemplos"
+
+23 Nov - v2.3
+    - Se comenzó y finalizó la configuración de la pagina "Terminos de Servicio"
+    - Se comenzó y finalizó la configuración de la pagina "about me"
+    - Se comenzó y finalizó la configuración de la pagina "proyectos"
+    - Se comenzó y finalizó la configuración de la pagina "contacto"
