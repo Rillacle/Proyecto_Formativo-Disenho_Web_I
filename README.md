@@ -28,3 +28,6 @@
     - Añadidos comentarios para la diferenciación de bloques de código
     - Finalizada la configuración de la página "info"
     - Creadas las carpetas para la sub-página "ejemplos"
+
+23 Nov - v2.2
+    - Se comenzó y finalizó la configuración de la sub-página "ejemplos"
