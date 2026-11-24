@@ -37,3 +37,6 @@
     - Se comenzó y finalizó la configuración de la pagina "about me"
     - Se comenzó y finalizó la configuración de la pagina "proyectos"
     - Se comenzó y finalizó la configuración de la pagina "contacto"
+
+23 Nov - v2.4
+    - Creado el media-query de tablets para la página index.html

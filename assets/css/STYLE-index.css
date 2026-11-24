@@ -147,3 +147,140 @@ body {
     pointer-events: none;
     z-index: -1;
 }
+
+@media (max-aspect-ratio: 1/1) {
+
+    :root {
+        --u: calc(100vw / 768);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../css/img/TABLETS\ fondo\ main.png");
+        background-repeat: no-repeat;
+        background-size: calc(768 * var(--u)) auto;
+        background-position: calc(0 * var(--u)) calc(0 * var(--u));
+    }
+
+    .decoration {
+        display: none;
+    }
+
+    header::before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: calc(0 * var(--u));
+        left: calc(0 * var(--u));
+        width: calc(668 * var(--u));
+        height: calc(1022 * var(--u));
+        background-image: url("../css/img/Vector\ 2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .filler {
+        display: none;
+    }
+
+    header > h1 {
+        position: absolute;
+        top: calc(23 * var(--u));
+        left: calc(31 * var(--u));
+        margin: 0;
+        font-size: calc(134 * var(--u));
+        line-height: calc(150 * var(--u));
+        letter-spacing: calc(6 * var(--u));
+    }
+
+    header > p {
+        position: absolute;
+        top: calc(153 * var(--u));
+        left: calc(36 * var(--u));
+        margin: 0;
+        font-size: calc(60 * var(--u));
+        line-height: calc(60 * var(--u));
+        letter-spacing: calc(0 * var(--u));
+    }
+
+    header > h3 {
+        position: absolute;
+        top: calc(237 * var(--u));
+        left: calc(30 * var(--u));
+        margin: 0;
+        font-size: calc(62 * var(--u));
+        line-height: calc(62 * var(--u));
+        letter-spacing: calc(1 * var(--u));
+    }
+
+    nav br {
+        display: none;
+    }
+
+    nav a {
+        position: absolute;
+        margin: 0;
+        letter-spacing: 0;
+    }
+
+    .info-sub {
+        top: calc(257 * var(--u));
+        left: calc(28 * var(--u));
+        font-size: calc(98 * var(--u));
+        line-height: calc(98 * var(--u));
+        letter-spacing: calc(-2 * var(--u));
+    }
+
+    .tds-sub {
+        top: calc(624 * var(--u));
+        left: calc(31 * var(--u));
+        font-size: calc(45 * var(--u));
+        line-height: calc(49 * var(--u));
+        max-width: calc(251 * var(--u));
+        letter-spacing: calc(-0.6 * var(--u));
+    }
+
+    .abtMe-sub {
+        top: calc(752 * var(--u));
+        left: calc(31 * var(--u));
+        font-size: calc(45 * var(--u));
+        line-height: calc(49 * var(--u));
+        max-width: calc(251 * var(--u));
+        letter-spacing: calc(-0.6 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(645 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(379 * var(--u));
+        margin: 0;
+        background-image: url("../css/img/TABLET\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img {
+        display: none;
+    }
+
+    .social {
+        position: absolute;
+        display: block;
+        background: transparent;
+        width: calc(66 * var(--u));
+        height: calc(66 * var(--u));
+        top: calc(268 * var(--u));
+        pointer-events: auto;
+    }
+
+    .instagram { left: calc(148 * var(--u)); }
+    .tiktok { left: calc(252 * var(--u)); }
+    .bluesky { left: calc(354 * var(--u)); }
+    .twitter { left: calc(460 * var(--u)); }
+    .tumblr { left: calc(560 * var(--u)); }
+}
