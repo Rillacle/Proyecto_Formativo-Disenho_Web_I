@@ -216,3 +216,148 @@ footer > img {
 .twitter { left: calc(260 * var(--u)); }
 .tumblr { left: calc(335 * var(--u)); }
 /*footer fin*/
+
+@media (max-aspect-ratio: 1/1) {
+
+    :root {
+        --u: calc(100vw / 768);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../img/IMG-contacto/TABLETS\ fondo\ contacto.png");
+        background-repeat: no-repeat;
+        background-size: calc(768 * var(--u)) auto;
+        background-position-x: calc(0 * var(--u));
+    }
+
+    .filler {
+        width: calc(702 * var(--u));
+        height: calc(1714 * var(--u));
+        top: calc(33 * var(--u));
+        left: calc(33 * var(--u));
+        border: 0;
+        border-radius: calc(45 * var(--u));
+    }
+
+    header > h1 {
+        top: calc(39 * var(--u));
+        left: calc(33 * var(--u));
+        width: calc(702 * var(--u));
+        font-size: calc(124 * var(--u));
+        line-height: calc(124 * var(--u));
+        letter-spacing: calc(2.5 * var(--u));
+    }
+
+    .img-personaje {
+        left: calc(190 * var(--u));
+        top: calc(395 * var(--u));
+        width: calc(397 * var(--u));
+    }
+
+    .texto {
+        font-size: calc(38 * var(--u));
+        line-height: calc(48 * var(--u));
+        white-space: normal;
+    }
+
+    .texto-intro {
+        left: calc(99 * var(--u));
+        top: calc(177 * var(--u));
+        width: calc(570 * var(--u));
+    }
+
+    .texto-email {
+        left: calc(33 * var(--u));
+        top: calc(291 * var(--u));
+        width: calc(702 * var(--u));
+        font-size: calc(59 * var(--u));
+        line-height: calc(70 * var(--u));
+        white-space: nowrap;
+    }
+
+    .texto-form {
+        left: calc(114 * var(--u));
+        top: calc(841 * var(--u));
+        width: calc(540 * var(--u));
+    }
+
+    .texto-form br {
+        display: none;
+    }
+
+    .formulario {
+        left: calc(76 * var(--u));
+        top: calc(962 * var(--u));
+        width: calc(617 * var(--u));
+        height: calc(621 * var(--u));
+        border-width: calc(6 * var(--u));
+        border-radius: calc(40 * var(--u));
+    }
+
+    .formulario input,
+    .formulario textarea {
+        width: calc(547 * var(--u));
+        border-width: calc(3 * var(--u));
+        border-radius: calc(25 * var(--u));
+        font-size: calc(31 * var(--u));
+    }
+
+    .formulario input {
+        height: calc(96 * var(--u));
+        margin: calc(25 * var(--u)) 0 0 calc(29 * var(--u));
+        padding: 0 calc(12 * var(--u));
+    }
+
+    .formulario textarea {
+        height: calc(315 * var(--u));
+        margin: calc(9 * var(--u)) 0 0 calc(29 * var(--u));
+        padding: calc(8 * var(--u)) calc(12 * var(--u));
+    }
+
+    .formulario button {
+        width: calc(258 * var(--u));
+        height: calc(117 * var(--u));
+        margin: calc(9 * var(--u)) 0 0 calc(35 * var(--u));
+        border-radius: calc(22 * var(--u));
+        font-size: calc(40 * var(--u));
+        line-height: calc(117 * var(--u));
+    }
+
+    .volver {
+        left: calc(260 * var(--u));
+        top: calc(1608 * var(--u));
+        width: calc(274 * var(--u));
+        height: calc(110 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(55 * var(--u));
+        line-height: calc(110 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(1685 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(379 * var(--u));
+        margin: 0;
+        background-image: url("../img/TABLET\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img { display: none; }
+
+    .social {
+        width: calc(66 * var(--u));
+        height: calc(66 * var(--u));
+        top: calc(268 * var(--u));
+    }
+
+    .instagram { left: calc(148 * var(--u)); }
+    .tiktok { left: calc(252 * var(--u)); }
+    .bluesky { left: calc(354 * var(--u)); }
+    .twitter { left: calc(460 * var(--u)); }
+    .tumblr { left: calc(560 * var(--u)); }
+}

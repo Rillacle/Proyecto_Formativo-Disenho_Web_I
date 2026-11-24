@@ -200,3 +200,142 @@ footer > img {
 .twitter { left: calc(260 * var(--u)); }
 .tumblr { left: calc(335 * var(--u)); }
 /*footer fin*/
+
+@media (max-aspect-ratio: 1/1) {
+
+    :root {
+        --u: calc(100vw / 768);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../img/IMG-proyectos/TABLETS\ fondo\ proyectos.png");
+        background-repeat: no-repeat;
+        background-size: calc(768 * var(--u)) auto;
+        background-position-x: calc(0 * var(--u));
+    }
+
+    .filler {
+        width: calc(702 * var(--u));
+        height: calc(4409 * var(--u));
+        top: calc(33 * var(--u));
+        left: calc(33 * var(--u));
+        border: 0;
+        border-radius: calc(45 * var(--u));
+    }
+
+    header > h1 {
+        top: calc(35 * var(--u));
+        left: calc(33 * var(--u));
+        width: calc(702 * var(--u));
+        font-size: calc(107 * var(--u));
+        line-height: calc(124 * var(--u));
+        letter-spacing: calc(2 * var(--u));
+    }
+
+    .subtitulo {
+        left: calc(44 * var(--u));
+        width: calc(680 * var(--u));
+        font-size: calc(72 * var(--u));
+        line-height: calc(80 * var(--u));
+        letter-spacing: calc(2 * var(--u));
+    }
+
+    .subtitulo br {
+        display: none;
+    }
+
+    .subtitulo-navi { top: calc(189 * var(--u)); }
+    .subtitulo-juno { 
+        top: calc(1927 * var(--u)); 
+    }
+
+    .img-navi-vertical {
+        left: calc(56 * var(--u));
+        top: calc(445 * var(--u));
+        width: calc(664.5 * var(--u));
+    }
+
+    .img-navi-horizontal {
+        left: calc(47.5 * var(--u));
+        top: calc(862 * var(--u));
+        width: calc(675 * var(--u));
+    }
+
+    .img-navi-negro {
+        left: calc(33 * var(--u));
+        top: calc(1340 * var(--u));
+        width: calc(702 * var(--u));
+    }
+
+    .btn-mod {
+        left: calc(127 * var(--u));
+        top: calc(2254 * var(--u));
+        width: calc(515 * var(--u));
+        height: calc(126 * var(--u));
+        border-radius: calc(33 * var(--u));
+        font-size: calc(57 * var(--u));
+        line-height: calc(126 * var(--u));
+    }
+
+    .img-juno-abc {
+        left: calc(40 * var(--u));
+        top: calc(2409 * var(--u));
+        width: calc(680 * var(--u));
+    }
+
+    .img-juno-ab {
+        left: calc(67 * var(--u));
+        top: calc(2655 * var(--u));
+        width: calc(600 * var(--u));
+    }
+
+    .img-fullbody-1 {
+        left: calc(47 * var(--u));
+        top: calc(2900 * var(--u));
+        width: calc(681 * var(--u));
+    }
+
+    .img-fullbody-2 {
+        left: calc(37 * var(--u));
+        top: calc(3535 * var(--u));
+        width: calc(694 * var(--u));
+    }
+
+    .volver {
+        left: calc(247 * var(--u));
+        top: calc(4297 * var(--u));
+        width: calc(274 * var(--u));
+        height: calc(110 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(55 * var(--u));
+        line-height: calc(110 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(4393 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(379 * var(--u));
+        margin: 0;
+        background-image: url("../img/TABLET\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img { display: none; }
+
+    .social {
+        width: calc(66 * var(--u));
+        height: calc(66 * var(--u));
+        top: calc(268 * var(--u));
+    }
+
+    .instagram { left: calc(148 * var(--u)); }
+    .tiktok { left: calc(252 * var(--u)); }
+    .bluesky { left: calc(354 * var(--u)); }
+    .twitter { left: calc(460 * var(--u)); }
+    .tumblr { left: calc(560 * var(--u)); }
+}

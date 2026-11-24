@@ -40,3 +40,9 @@
 
 23 Nov - v2.4
     - Creado el media-query de tablets para la página index.html
+    - Creado el media-query de tablets para la página Tds.html
+    - Creado el media-query de tablets para la página proyectos.html
+    - Creado el media-query de tablets para la página ejemplos.html
+    - Creado el media-query de tablets para la página about-me.html
+    - Creado el media-query de tablets para la página info.html
+    - Creado el media-query de tablets para la página contacto.html

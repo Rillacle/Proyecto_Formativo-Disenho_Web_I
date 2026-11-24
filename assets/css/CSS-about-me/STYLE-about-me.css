@@ -190,3 +190,126 @@ footer > img {
 .twitter { left: calc(260 * var(--u)); }
 .tumblr { left: calc(335 * var(--u)); }
 /*footer fin*/
+
+@media (max-aspect-ratio: 1/1) {
+
+    :root {
+        --u: calc(100vw / 768);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../img/IMG-about-me/TABLETS\ about\ me\ fondo.png");
+        background-repeat: no-repeat;
+        background-size: calc(768 * var(--u)) auto;
+        background-position-x: calc(0 * var(--u));
+    }
+
+    .filler {
+        width: calc(702 * var(--u));
+        height: calc(2120 * var(--u));
+        top: calc(33 * var(--u));
+        left: calc(33 * var(--u));
+        border: 0;
+        border-radius: calc(45 * var(--u));
+    }
+
+    header > h1 {
+        top: calc(32 * var(--u));
+        left: calc(33 * var(--u));
+        width: calc(702 * var(--u));
+        font-size: calc(104 * var(--u));
+        line-height: calc(124 * var(--u));
+        letter-spacing: calc(3.5 * var(--u));
+    }
+
+    .titulo-acerca {
+        top: calc(189 * var(--u));
+        left: calc(33 * var(--u));
+        width: calc(702 * var(--u));
+        font-size: calc(86 * var(--u));
+        line-height: calc(106 * var(--u));
+        letter-spacing: calc(2 * var(--u));
+        text-align: center;
+    }
+
+    .img-unicornio {
+        left: calc(107 * var(--u));
+        top: calc(265 * var(--u));
+        width: calc(570 * var(--u));
+        z-index: -1;
+        
+    }
+
+    .img-boceto {
+        left: calc(60 * var(--u));
+        top: calc(1192 * var(--u));
+        width: calc(650 * var(--u));
+    }
+
+    .bio {
+        top: calc(832 * var(--u));
+        left: calc(82 * var(--u));
+        width: calc(604 * var(--u));
+    }
+
+    .bio p {
+        font-size: calc(35 * var(--u));
+        line-height: calc(46 * var(--u));
+    }
+
+    .boton {
+        top: calc(1862 * var(--u));
+        width: calc(196 * var(--u));
+        height: calc(110 * var(--u));
+        border-radius: calc(22 * var(--u));
+        font-size: calc(33 * var(--u));
+        line-height: calc(110 * var(--u));
+    }
+
+    .mis-dibujos {
+        left: calc(59 * var(--u));
+        padding-top: calc(25 * var(--u));
+        line-height: calc(30 * var(--u));
+    }
+
+    .proyectos { left: calc(286 * var(--u)); }
+    .contacto { left: calc(513 * var(--u)); }
+
+    .volver {
+        left: calc(247 * var(--u));
+        top: calc(2004 * var(--u));
+        width: calc(274 * var(--u));
+        height: calc(111 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(55 * var(--u));
+        line-height: calc(111 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(2091 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(379 * var(--u));
+        margin: 0;
+        background-image: url("../img/TABLET\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img { display: none; }
+
+    .social {
+        width: calc(66 * var(--u));
+        height: calc(66 * var(--u));
+        top: calc(268 * var(--u));
+    }
+
+    .instagram { left: calc(148 * var(--u)); }
+    .tiktok { left: calc(252 * var(--u)); }
+    .bluesky { left: calc(354 * var(--u)); }
+    .twitter { left: calc(460 * var(--u)); }
+    .tumblr { left: calc(560 * var(--u)); }
+}

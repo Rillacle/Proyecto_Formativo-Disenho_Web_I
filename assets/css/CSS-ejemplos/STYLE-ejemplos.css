@@ -180,3 +180,129 @@ footer > img {
 .twitter { left: calc(260 * var(--u)); }
 .tumblr { left: calc(335 * var(--u)); }
 /*footer fin*/
+
+@media (max-aspect-ratio: 1/1) {
+
+    :root {
+        --u: calc(100vw / 768);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../img/IMG-ejemplos/TABLETS\ fondo\ ejemplos.png");
+        background-repeat: no-repeat;
+        background-size: calc(768 * var(--u)) auto;
+        background-position-x: calc(0 * var(--u));
+    }
+
+    .filler {
+        width: calc(702 * var(--u));
+        height: calc(5967 * var(--u));
+        top: calc(33 * var(--u));
+        left: calc(33 * var(--u));
+        border: 0;
+        border-radius: calc(45 * var(--u));
+    }
+
+    header > h1,
+    .titulo {
+        left: calc(33 * var(--u));
+        width: calc(702 * var(--u));
+        letter-spacing: calc(2 * var(--u));
+    }
+
+    header > h1 {
+        top: calc(43 * var(--u));
+        font-size: calc(124 * var(--u));
+        line-height: calc(124 * var(--u));
+    }
+
+    .titulo {
+        font-size: calc(106 * var(--u));
+        line-height: calc(93 * var(--u));
+    }
+
+    .titulo-originales { top: calc(228.5 * var(--u)); }
+    .titulo-fanarts { top: calc(2021.5 * var(--u)); }
+    .titulo-paisajes { top: calc(3560.5 * var(--u)); }
+    .titulo-mecanismos { top: calc(4191 * var(--u)); }
+
+    .img-flor {
+        left: calc(118 * var(--u));
+        top: calc(434 * var(--u));
+        width: calc(500 * var(--u));
+    }
+
+    .img-pinguino-azul {
+        left: calc(61 * var(--u));
+        top: calc(1259 * var(--u));
+        width: calc(650 * var(--u));
+    }
+
+    .img-fanart-chica {
+        left: calc(49 * var(--u));
+        top: calc(2135 * var(--u));
+        width: calc(667 * var(--u));
+    }
+
+    .img-fanart-conejo {
+        left: calc(154 * var(--u));
+        top: calc(2846 * var(--u));
+        width: calc(427 * var(--u));
+    }
+
+    .img-paisaje {
+        left: calc(93 * var(--u));
+        top: calc(3663 * var(--u));
+        width: calc(606 * var(--u));
+    }
+
+    .img-mecanismo-1 {
+        left: calc(93 * var(--u));
+        top: calc(4306 * var(--u));
+        width: calc(574 * var(--u));
+    }
+
+    .img-mecanismo-2 {
+        left: calc(61 * var(--u));
+        top: calc(5136 * var(--u));
+        width: calc(650 * var(--u));
+    }
+
+    .volver {
+        left: calc(247 * var(--u));
+        top: calc(5875 * var(--u));
+        width: calc(274 * var(--u));
+        height: calc(110 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(55 * var(--u));
+        line-height: calc(110 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(5938 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(379 * var(--u));
+        margin: 0;
+        background-image: url("../img/TABLET\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img { display: none; }
+
+    .social {
+        width: calc(66 * var(--u));
+        height: calc(66 * var(--u));
+        top: calc(268 * var(--u));
+    }
+
+    .instagram { left: calc(148 * var(--u)); }
+    .tiktok { left: calc(252 * var(--u)); }
+    .bluesky { left: calc(354 * var(--u)); }
+    .twitter { left: calc(460 * var(--u)); }
+    .tumblr { left: calc(560 * var(--u)); }
+}
