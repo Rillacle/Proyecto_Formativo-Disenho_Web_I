@@ -306,3 +306,129 @@ footer > img {
     .twitter { left: calc(460 * var(--u)); }
     .tumblr { left: calc(560 * var(--u)); }
 }
+
+@media (max-aspect-ratio: 3/5) {
+
+    :root {
+        --u: calc(100vw / 428);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../img/IMG-ejemplos/MOVILES\ fondo\ ejemplos.png");
+        background-repeat: no-repeat;
+        background-size: calc(428 * var(--u)) auto;
+        background-position-x: calc(0 * var(--u));
+    }
+
+    .filler {
+        top: calc(0 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(4307 * var(--u));
+        border: 0;
+        border-radius: 0;
+        opacity: 0.75;
+    }
+
+    header > h1,
+    .titulo {
+        left: calc(0 * var(--u));
+        width: calc(428 * var(--u));
+    }
+
+    header > h1 {
+        top: calc(2 * var(--u));
+        font-size: calc(100 * var(--u));
+        line-height: calc(100 * var(--u));
+        letter-spacing: calc(2 * var(--u));
+    }
+
+    .titulo {
+        font-size: calc(78 * var(--u));
+        line-height: calc(62 * var(--u));
+        letter-spacing: calc(1.5 * var(--u));
+    }
+
+    .titulo-originales { top: calc(103 * var(--u)); }
+    .titulo-fanarts { top: calc(1440 * var(--u)); }
+    .titulo-mecanismos { top: calc(2728 * var(--u)); }
+
+    .titulo-paisajes,
+    .img-paisaje {
+        display: none;
+    }
+
+    .img-flor {
+        left: calc(-1 * var(--u));
+        top: calc(250 * var(--u));
+        width: calc(428 * var(--u));
+    }
+
+    .img-pinguino-azul {
+        left: calc(0 * var(--u));
+        top: calc(893 * var(--u));
+        width: calc(428 * var(--u));
+    }
+
+    .img-fanart-chica {
+        left: calc(0 * var(--u));
+        top: calc(1513 * var(--u));
+        width: calc(430 * var(--u));
+    }
+
+    .img-fanart-conejo {
+        left: calc(0 * var(--u));
+        top: calc(1973 * var(--u));
+        width: calc(430 * var(--u));
+    }
+
+    .img-mecanismo-1 {
+        left: calc(0 * var(--u));
+        top: calc(2800 * var(--u));
+        width: calc(440 * var(--u));
+    }
+
+    .img-mecanismo-2 {
+        left: calc(0 * var(--u));
+        top: calc(3423 * var(--u));
+        width: calc(428 * var(--u));
+    }
+
+    .volver {
+        left: calc(77 * var(--u));
+        top: calc(3937 * var(--u));
+        width: calc(274 * var(--u));
+        height: calc(110 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(55 * var(--u));
+        line-height: calc(110 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(4052 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(255 * var(--u));
+        margin: 0;
+        background-image: url("../img/MOVIL\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img { display: none; }
+
+    .social {
+        width: calc(56 * var(--u));
+        height: calc(56 * var(--u));
+        top: calc(157 * var(--u));
+    }
+
+    .instagram { left: calc(61 * var(--u)); }
+    .tiktok { left: calc(131 * var(--u)); }
+    .bluesky { left: calc(197 * var(--u)); }
+    .twitter { left: calc(264 * var(--u)); }
+    .tumblr { left: calc(323 * var(--u)); }
+}

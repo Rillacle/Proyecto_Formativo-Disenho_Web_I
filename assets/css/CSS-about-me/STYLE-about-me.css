@@ -313,3 +313,131 @@ footer > img {
     .twitter { left: calc(460 * var(--u)); }
     .tumblr { left: calc(560 * var(--u)); }
 }
+
+@media (max-aspect-ratio: 3/5) {
+
+    :root {
+        --u: calc(100vw / 428);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../img/IMG-about-me/MOVILES\ about\ me\ fondo.png");
+        background-repeat: no-repeat;
+        background-size: calc(428 * var(--u)) auto;
+        background-position-x: calc(0 * var(--u));
+    }
+
+    .filler {
+        top: calc(0 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(2345 * var(--u));
+        border: 0;
+        border-radius: 0;
+        opacity: 0.75;
+    }
+
+    header > h1 {
+        top: calc(0 * var(--u));
+        left: calc(0 * var(--u));
+        width: calc(428 * var(--u));
+        font-size: calc(90 * var(--u));
+        line-height: calc(100 * var(--u));
+        letter-spacing: calc(2 * var(--u));
+    }
+
+    .titulo-acerca {
+        top: calc(123 * var(--u));
+        left: calc(0 * var(--u));
+        width: calc(428 * var(--u));
+        font-size: calc(73 * var(--u));
+        line-height: calc(83 * var(--u));
+        letter-spacing: calc(1.5 * var(--u));
+        text-align: center;
+    }
+
+    .img-unicornio {
+        left: calc(42 * var(--u));
+        top: calc(222 * var(--u));
+        width: calc(342 * var(--u));
+    }
+
+    .img-boceto {
+        left: calc(-14 * var(--u));
+        top: calc(1125 * var(--u));
+        width: calc(440 * var(--u));
+    }
+
+    .bio {
+        top: calc(600 * var(--u));
+        left: calc(43 * var(--u));
+        width: calc(342 * var(--u));
+    }
+
+    .bio p {
+        font-size: calc(26 * var(--u));
+        line-height: calc(46 * var(--u));
+    }
+
+    .boton {
+        width: calc(335 * var(--u));
+        height: calc(77 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(33 * var(--u));
+        line-height: calc(77 * var(--u));
+        padding-top: 0;
+    }
+
+    .mis-dibujos,
+    .proyectos,
+    .contacto {
+        left: calc(47 * var(--u));
+    }
+
+    .mis-dibujos {
+        top: calc(1663 * var(--u));
+        padding-top: calc(7 * var(--u));
+        line-height: calc(30 * var(--u));
+    }
+
+    .proyectos { top: calc(1760 * var(--u)); }
+    .contacto { top: calc(1857 * var(--u)); }
+
+    .volver {
+        left: calc(77 * var(--u));
+        top: calc(1972 * var(--u));
+        width: calc(274 * var(--u));
+        height: calc(110 * var(--u));
+        border-radius: calc(20 * var(--u));
+        font-size: calc(55 * var(--u));
+        line-height: calc(110 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(2090 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(255 * var(--u));
+        margin: 0;
+        background-image: url("../img/MOVIL\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img { display: none; }
+
+    .social {
+        width: calc(56 * var(--u));
+        height: calc(56 * var(--u));
+        top: calc(157 * var(--u));
+    }
+
+    .instagram { left: calc(61 * var(--u)); }
+    .tiktok { left: calc(131 * var(--u)); }
+    .bluesky { left: calc(197 * var(--u)); }
+    .twitter { left: calc(264 * var(--u)); }
+    .tumblr { left: calc(323 * var(--u)); }
+}

@@ -284,3 +284,148 @@ body {
     .twitter { left: calc(460 * var(--u)); }
     .tumblr { left: calc(560 * var(--u)); }
 }
+
+@media (max-aspect-ratio: 3/5) {
+
+    :root {
+        --u: calc(100vw / 428);
+    }
+
+    body {
+        margin: 0;
+        background-image: url("../css/img/MOVILES\ fondo\ main.png");
+        background-repeat: no-repeat;
+        background-size: calc(428 * var(--u)) auto;
+        background-position: calc(0 * var(--u)) calc(0 * var(--u));
+    }
+
+    .filler {
+        display: none;
+    }
+
+    header::before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: calc(0 * var(--u));
+        left: calc(0 * var(--u));
+        width: calc(428 * var(--u));
+        height: calc(305 * var(--u));
+        background-image: url("../css/img/Vector\ 3.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    nav::before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: calc(330 * var(--u));
+        left: calc(60 * var(--u));
+        width: calc(305 * var(--u));
+        height: calc(400 * var(--u));
+        background-color: #FFE343;
+        border-radius: calc(40 * var(--u));
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    header > h1 {
+        position: absolute;
+        top: calc(11 * var(--u));
+        left: calc(12 * var(--u));
+        margin: 0;
+        font-size: calc(92 * var(--u));
+        line-height: calc(102 * var(--u));
+        letter-spacing: calc(3.5 * var(--u));
+    }
+
+    header > p {
+        position: absolute;
+        top: calc(100 * var(--u));
+        left: calc(12 * var(--u));
+        margin: 0;
+        font-size: calc(28 * var(--u));
+        line-height: calc(30 * var(--u));
+        letter-spacing: calc(1 * var(--u));
+    }
+
+    header > h3 {
+        position: absolute;
+        top: calc(193 * var(--u));
+        left: calc(14 * var(--u));
+        margin: 0;
+        font-size: calc(29 * var(--u));
+        line-height: calc(29 * var(--u));
+        letter-spacing: calc(0.5 * var(--u));
+    }
+
+    nav br {
+        display: inline;
+    }
+
+    nav a {
+        position: absolute;
+        margin: 0;
+        letter-spacing: 0;
+        white-space: normal;
+    }
+
+    .info-sub {
+        top: calc(131 * var(--u));
+        left: calc(93 * var(--u));
+        font-size: calc(100 * var(--u));
+        line-height: calc(100 * var(--u));
+    }
+
+    .tds-sub {
+        top: calc(481 * var(--u));
+        left: calc(96 * var(--u));
+        width: calc(250 * var(--u));
+        font-size: calc(44.5 * var(--u));
+        line-height: calc(50 * var(--u));
+    }
+
+    .abtMe-sub {
+        top: calc(606 * var(--u));
+        left: calc(112 * var(--u));
+        width: calc(250 * var(--u));
+        font-size: calc(44.5 * var(--u));
+        line-height: calc(50 * var(--u));
+    }
+
+    footer {
+        position: absolute;
+        top: calc(675 * var(--u));
+        left: calc(0 * var(--u));
+        width: 100vw;
+        height: calc(255 * var(--u));
+        margin: 0;
+        background-image: url("../css/img/MOVIL\ footer.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        pointer-events: none;
+    }
+
+    footer > img {
+        display: none;
+    }
+
+    .social {
+        position: absolute;
+        display: block;
+        background: transparent;
+        width: calc(56 * var(--u));
+        height: calc(56 * var(--u));
+        top: calc(157 * var(--u));
+        pointer-events: auto;
+    }
+
+    .instagram { left: calc(61 * var(--u)); }
+    .tiktok { left: calc(131 * var(--u)); }
+    .bluesky { left: calc(197 * var(--u)); }
+    .twitter { left: calc(264 * var(--u)); }
+    .tumblr { left: calc(323 * var(--u)); }
+}
